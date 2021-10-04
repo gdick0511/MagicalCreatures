@@ -1,10 +1,41 @@
 {
     "creatureData" : [
         {
+            "id": 1,
             "name" : "Green Dragon",
             "imageUrl" : "https://www.dndbeyond.com/avatars/thumbnails/0/141/490/315/636252757319464533.jpeg",
             "description" : "He is angry",
             "donations" : 0
+        },
+        {
+            "id": 2,
+            "name" :"Felidar",
+            "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/4719/613/1000/1000/636755088327051382.png",
+            "description": "The felidar is a large feline beast with a bony face and prominent antlers. They can be trained and ridden.
+            Felidars that make it through their first year of life can easily live to see a hundred years more.",
+            "donations": 0
+
+        }
+        {
+            "id": 3,
+            "name" : "Annis Hag",
+            "imageUrl" : "https://www.dndbeyond.com/avatars/thumbnails/9/697/1000/1000/636330473468176181.jpeg",
+            "description" : "sometimes specified as an annis hag, was the most dreaded kind, spreading fear through fiction and ruling through it in reality. The child-eating hags were the undisputed queens of barbarism, combining the wicked cruelty of dark fey with the unbridled strength of evil giants",
+            "donations" : "0"
+        }
+        {
+            "id": 4,
+            "name": "Elder Tempest",
+            "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/281/159/1000/1000/636603613105229454.png",
+            "description":"The tempest is always at the center of a storm 1d6 + 4 miles in diameter. Heavy precipitation in the form of either rain or snow falls there, causing the area to be lightly obscured. Heavy rain also extinguishes open flames and imposes disadvantage on Wisdom (Perception) checks that rely on hearing. Siege Monster.",
+            "donations": "0"
+        }
+        {
+            "id": 5,
+            "name": "Gargolyle",
+            "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/281/159/1000/1000/636603613105229454.png",
+            "description":"Gargoyles appeared to be winged statues of demon-like humanoids. These creatures had mastered the ability to stand motionless for long periods of time, which added to the façade of their statue-like appearance.",
+            "donations":"0"
         }
     ]
 }
