@@ -7,6 +7,37 @@
     <title>Endangered Magical Creatures</title>
 </head>
 <body>
-    <script defer src="./index.js"></script>
+ <script defer src="./index.js"></script>
+ <div id='creature_cards_container'>
+     <container id="">
+       <card>
+         <name>Me</name>
+         <img src="https://www.dndbeyond.com/avatars/thumbnails/0/141/490/315/636252757319464533.jpeg"> 
+         <desciption>Wild and Free</desciption>
+        </card>
+     </container> 
+ </div>
+
+
+ <div id='form_area'>
+     <form id='form'>
+         <label id='creature_name'>Creature Name <input type='text'></label>
+         <br>
+         <label id='creature_description'>Creature Description <input type='text'></label>
+         <br>
+         <button id="submit">Submit</button>
+     </form> 
+ </div>
 </body>
 </html>
+
+
+<div id="form_area">
+    <form id="creature_form">
+      <label class="form-label"><strong>Name: </strong></label>
+      <input type="text" id="name-input" />
+      <label class="form-label"><strong>Image: </strong></label>
+      <input type="text" id="img-input" />
+      <input type="submit" value="Submit" />
+    </form>
+</div>
