@@ -15,21 +15,21 @@
             Felidars that make it through their first year of life can easily live to see a hundred years more.",
             "donations": 0
 
-        }
+        },
         {
             "id": 3,
             "name" : "Annis Hag",
             "imageUrl" : "https://www.dndbeyond.com/avatars/thumbnails/9/697/1000/1000/636330473468176181.jpeg",
             "description" : "sometimes specified as an annis hag, was the most dreaded kind, spreading fear through fiction and ruling through it in reality. The child-eating hags were the undisputed queens of barbarism, combining the wicked cruelty of dark fey with the unbridled strength of evil giants",
             "donations" : "0"
-        }
+        },
         {
             "id": 4,
             "name": "Elder Tempest",
             "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/281/159/1000/1000/636603613105229454.png",
             "description":"The tempest is always at the center of a storm 1d6 + 4 miles in diameter. Heavy precipitation in the form of either rain or snow falls there, causing the area to be lightly obscured. Heavy rain also extinguishes open flames and imposes disadvantage on Wisdom (Perception) checks that rely on hearing. Siege Monster.",
             "donations": "0"
-        }
+        },
         {
             "id": 5,
             "name": "Gargolyle",
