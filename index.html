@@ -8,23 +8,29 @@
 </head>
 <body>
  <script defer src="./index.js"></script>
+ <link rel="stylesheet" href="./index.css">
+<header>
+  <h1>Magical Creatures Endangered Species List</h1>
+</header> 
  <div id='creature_cards_container'>
-     <container id="">
+     <!-- <container id="">
        <card>
          <name>Me</name>
          <img src="https://www.dndbeyond.com/avatars/thumbnails/0/141/490/315/636252757319464533.jpeg"> 
          <desciption>Wild and Free</desciption>
         </card>
-     </container> 
+     </container>  -->
  </div>
 
 
  <div id='form_area'>
      <form id='form'>
-         <label id='creature_name'>Creature Name <input type='text'></label>
-         <br>
-         <label id='creature_description'>Creature Description <input type='text'></label>
-         <br>
+         <label id='creature_name'>Creature Name</label>
+         <input type='text' id='name'/>
+         <label id='creature_description'>Creature Description</label>
+         <input type='text' id='description'>
+         <label id="creature_picture">Image URL</label>
+         <input type="text" id="picture"/>
          <button id="submit">Submit</button>
      </form> 
  </div>
@@ -32,7 +38,7 @@
 </html>
 
 
-<div id="form_area">
+<!-- <div id="form_area">
     <form id="creature_form">
       <label class="form-label"><strong>Name: </strong></label>
       <input type="text" id="name-input" />
@@ -40,4 +46,4 @@
       <input type="text" id="img-input" />
       <input type="submit" value="Submit" />
     </form>
-</div>
+</div> -->
