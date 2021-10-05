@@ -11,8 +11,7 @@
             "id": 2,
             "name" :"Felidar",
             "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/4719/613/1000/1000/636755088327051382.png",
-            "description": "The felidar is a large feline beast with a bony face and prominent antlers. They can be trained and ridden.
-            Felidars that make it through their first year of life can easily live to see a hundred years more.",
+            "description": " They can be trained and ridden.Felidars that make it through their first year of life can easily live to see a hundred years more.",
             "donations": 0
 
         },
@@ -33,7 +32,7 @@
         {
             "id": 5,
             "name": "Gargolyle",
-            "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/281/159/1000/1000/636603613105229454.png",
+            "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/0/407/1000/1000/636252786295384889.jpeg",
             "description":"Gargoyles appeared to be winged statues of demon-like humanoids. These creatures had mastered the ability to stand motionless for long periods of time, which added to the façade of their statue-like appearance.",
             "donations":"0"
         }
