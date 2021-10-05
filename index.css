@@ -32,7 +32,7 @@ body {
       }
     
   #description {
-    display: flex;
+    display: center;
     justify-content: center;
     overflow-wrap: center;
   }
