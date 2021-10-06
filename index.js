@@ -73,5 +73,4 @@ function initialize(){
  getAllCreatures()
 }
         
-initialize()
-        
+initialize()      

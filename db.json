@@ -34,6 +34,13 @@
       "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/0/407/1000/1000/636252786295384889.jpeg",
       "description": "These creatures had mastered the ability to stand motionless for long periods of time, which added to the façade of their statue-like appearance.",
       "donations": 0
+    },
+    {
+      "name": "Fairy",
+      "imageUrl": "https://i.redd.it/zrftey9ll5w61.jpg",
+      "description": "Nested deep in the Dark Forest, these creatures can live for thousands of years. They are sought after for their wings - which can make a fine yet durable silk ",
+      "donations": 0,
+      "id": 6
     }
   ]
 }
