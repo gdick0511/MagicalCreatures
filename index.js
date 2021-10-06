@@ -23,6 +23,12 @@ function renderCreatures(creature){
     card.querySelector('.dontation_count').textContent = creature.donations
     updateDonations(creature)
  })
+ card.querySelector('#donate').addEventListener('mouseover', () => {
+     card.querySelector('#donate').textContent = 'Please Donate!'
+ })
+ card.querySelector('#donate').addEventListener('mouseout', () => {
+    card.querySelector('#donate').textContent = 'Donate 100 Gold'
+})
  document.getElementById('creature_list').appendChild(card)
     
 }
