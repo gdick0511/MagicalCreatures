@@ -1,7 +1,5 @@
 console.log('Hello World')
 
-// document.addEventListener('DOMContentLoaded', renderCreatures)
-
 document.getElementById('form').addEventListener('submit', handleSubmit)
 
 function renderCreatures(creature){
@@ -19,23 +17,15 @@ function renderCreatures(creature){
         <div class="buttons">
             <button id='donate'> Donate 100 Gold </button> 
         </div>       
-    `
-    
- 
+    `  
+ card.querySelector('#donate').addEventListener('click', () => {
+    creature.donations += 100
+    card.querySelector('.dontation_count').textContent = creature.donations
+    updateDonations(creature)
+ })
  document.getElementById('creature_list').appendChild(card)
     
 }
-
-
-function getAllCreatures(){
- fetch('http://localhost:3000/creatureData')
- .then(resp => resp.json())
- .then(creatureData => creatureData.forEach(creature => renderCreatures(creature)))
-            
-            // .then(creatureData => creatureData.forEach(creature => renderCreatures(creature)))
-}
-
-
 
 function handleSubmit(e){
     e.preventDefault()
@@ -47,6 +37,24 @@ function handleSubmit(e){
     }
     renderCreatures(creatureObj)
     addCreature(creatureObj)
+}
+
+function getAllCreatures(){
+ fetch('http://localhost:3000/creatureData')
+ .then(resp => resp.json())
+ .then(creatureData => creatureData.forEach(creature => renderCreatures(creature)))
+}
+
+function updateDonations(creatureObj){
+    fetch(`http://localhost:3000/creatureData/${creatureObj.id}`, {
+        method: "PATCH",
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(creatureObj)
+    })
+    .then(res => res.json())
+    .then(creature = console.log(creature))
 }
 
 function addCreature(creatureObj){
@@ -67,5 +75,3 @@ function initialize(){
         
 initialize()
         
-        
-// {/* <span class='donation_count">${creature.donations}</span> Donated */}

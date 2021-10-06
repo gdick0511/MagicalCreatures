@@ -19,22 +19,21 @@
       "name": "Annis Hag",
       "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/9/697/1000/1000/636330473468176181.jpeg",
       "description": "The child-eating hags were the undisputed queens of barbarism, combining the wicked cruelty of dark fey with the unbridled strength of evil giants",
-      "donations": "0"
+      "donations": 0
     },
     {
       "id": 4,
       "name": "Elder Tempest",
       "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/281/159/1000/1000/636603613105229454.png",
       "description": "Heavy precipitation in the form of either rain or snow falls there, causing the area to be lightly obscured.",
-      "donations": "0"
+      "donations": 0
     },
     {
       "id": 5,
       "name": "Gargolyle",
       "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/0/407/1000/1000/636252786295384889.jpeg",
       "description": "These creatures had mastered the ability to stand motionless for long periods of time, which added to the façade of their statue-like appearance.",
-      "donations": "0"
+      "donations": 0
     }
- 
   ]
 }
