@@ -7,6 +7,7 @@ document.getElementById('form').addEventListener('submit', handleSubmit)
 function renderCreatures(creature){
     let card = document.createElement('li')
     card.className = 'card'
+    card.id = 'creature_card'
     card.innerHTML = `
         <img src="${creature.imageUrl}">
         <div class='content'>
@@ -14,13 +15,18 @@ function renderCreatures(creature){
             <p class="dontation_count">$${creature.donations}
             </p>
             <p>${creature.description}</P>
-            </div>
-            <div class="buttons">
-            <button> Donate 100 Gold </button>    
-            `
-            document.getElementById('creature_list').appendChild(card)
-}
+        </div>
+        <div class="buttons">
+            <button id='donate'> Donate 100 Gold </button> 
+        </div>       
+    `
     
+ 
+ document.getElementById('creature_list').appendChild(card)
+    
+}
+
+
 function getAllCreatures(){
  fetch('http://localhost:3000/creatureData')
  .then(resp => resp.json())
