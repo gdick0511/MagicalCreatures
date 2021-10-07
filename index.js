@@ -18,9 +18,10 @@ function renderCreatures(creature){
             <button id='donate'> Donate 100 Gold </button> 
         </div>       
     `  
+    document.getElementById('creature_list').appendChild(card)
  card.querySelector('#donate').addEventListener('click', () => {
      creature.donations += 100
-     card.querySelector('.dontation_count').textContent = creature.donations
+     card.querySelector('.dontation_count').textContent = `$${creature.donations}`
      updateDonations(creature)
  })
  card.querySelector('#donate').addEventListener('mouseover', () => {
@@ -29,10 +30,8 @@ function renderCreatures(creature){
  card.querySelector('#donate').addEventListener('mouseout', () => {
     card.querySelector('#donate').textContent = 'Donate 100 Gold'
 })
- document.getElementById('creature_list').appendChild(card)
 }
  
-
 function handleSubmit(e){
     e.preventDefault()
     let creatureObj = {
@@ -43,6 +42,8 @@ function handleSubmit(e){
     }
     renderCreatures(creatureObj)
     addCreature(creatureObj)
+    let form = document.getElementById('form')
+    form.reset()
 }
 
 function getAllCreatures(){
