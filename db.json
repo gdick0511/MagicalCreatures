@@ -5,14 +5,14 @@
       "name": "Green Dragon",
       "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/0/141/490/315/636252757319464533.jpeg",
       "description": "Master manipulators who reveled in corrupting lesser creatures and hoarding them like possessions.",
-      "donations": 1900
+      "donations": 2000
     },
     {
       "id": 2,
       "name": "Felidar",
       "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/4719/613/1000/1000/636755088327051382.png",
       "description": "They can be trained and ridden. Felidars that make it through their first year of life can easily live to see a hundred years more.",
-      "donations": 1000
+      "donations": 1600
     },
     {
       "id": 3,
@@ -26,7 +26,7 @@
       "name": "Elder Tempest",
       "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/281/159/1000/1000/636603613105229454.png",
       "description": "Heavy precipitation in the form of either rain or snow falls there, causing the area to be lightly obscured.",
-      "donations": 2200
+      "donations": 2600
     },
     {
       "id": 5,
@@ -39,7 +39,7 @@
       "name": "Fairy",
       "imageUrl": "https://i.redd.it/zrftey9ll5w61.jpg",
       "description": "Nested deep in the Dark Forest, these creatures can live for thousands of years. They are sought after for their wings - which can make a fine yet durable silk.",
-      "donations": 1900,
+      "donations": 2000,
       "id": 6
     },
     {
