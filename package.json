@@ -1,0 +1,22 @@
+{
+  "name": "mod1project",
+  "version": "1.0.0",
+  "description": "Phase one project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdick0511/Mod1Project.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "Garrett Dick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdick0511/Mod1Project/issues"
+  },
+  "homepage": "https://github.com/gdick0511/Mod1Project#readme"
+}
