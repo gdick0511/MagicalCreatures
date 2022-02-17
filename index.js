@@ -52,7 +52,7 @@ function getAllCreatures(){
 }
 
 function updateDonations(creatureObj){
-    fetch(`http://localhost:3000/creatureData/${creatureObj.id}`, {
+    fetch(`https://magical-creatures-database.herokuapp.com/creatureData/${creatureObj.id}`, {
         method: "PATCH",
         headers: {
             'Content-Type': 'application/json'
@@ -64,7 +64,7 @@ function updateDonations(creatureObj){
 }
 
 function addCreature(creatureObj){
-    fetch('http://localhost:3000/creatureData',{
+    fetch('https://magical-creatures-database.herokuapp.com/creatureData',{
         method: "POST",
         headers: {
             'Content-Type':'application/json'
