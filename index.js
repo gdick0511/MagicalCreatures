@@ -1,5 +1,3 @@
-console.log('Hello World')
-
 document.getElementById('form').addEventListener('submit', handleSubmit)
 
 function renderCreatures(creature){
