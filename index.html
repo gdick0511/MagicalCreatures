@@ -28,7 +28,18 @@
             <button id="submit">Add To List</button>
         </form> 
     </div>
- <script defer src="./index.js"></script>
+ <script defer src="./index.js">
+    const firebaseConfig = {
+  apiKey: "AIzaSyDmkUZItFPmHV-pdZCM26WgeQhEJqoX344",
+  authDomain: "magical-endangered-creatures.firebaseapp.com",
+  databaseURL: "https://magical-endangered-creatures-default-rtdb.firebaseio.com",
+  projectId: "magical-endangered-creatures",
+  storageBucket: "magical-endangered-creatures.appspot.com",
+  messagingSenderId: "136436180014",
+  appId: "1:136436180014:web:991effe7c9d58e103b6bbf"
+};
+    firebase.initializeApp(firebaseConfig)
+</script>
  <link rel="stylesheet" href="./index.css">
  <div id='creature_cards_container'>
     <ul id='creature_list' class='cards'>

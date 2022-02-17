@@ -1,3 +1,4 @@
+
 document.getElementById('form').addEventListener('submit', handleSubmit)
 
 function renderCreatures(creature){
@@ -45,7 +46,7 @@ function handleSubmit(e){
 }
 
 function getAllCreatures(){
- fetch('http://localhost:3000/creatureData')
+ fetch('https://magical-creatures-database.herokuapp.com/creatureData')
  .then(resp => resp.json())
  .then(creatureData => creatureData.forEach(creature => renderCreatures(creature)))
 }
