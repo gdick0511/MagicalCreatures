@@ -6,5 +6,18 @@
       "**/.*",
       "**/node_modules/**"
     ]
-  }
+  },
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "creatureData": [
+    {
+      "id": 1,
+      "name": "Green Dragon",
+      "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/0/141/490/315/636252757319464533.jpeg",
+      "description": "Master manipulators who reveled in corrupting lesser creatures and hoarding them like possessions.",
+      "donations": 2600
+    }
+  ]
 }
+
