@@ -1,6 +1,11 @@
 body {
     background-image: url("https://www.teahub.io/photos/full/70-706650_minimalist-d-d-wallpaper-phone.png");
     background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: auto;
+    background-size: 1920px 1080px ;
+
   }
 
   h1 {
