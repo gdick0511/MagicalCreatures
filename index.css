@@ -78,6 +78,16 @@ body {
      font-size: 16px;
      box-shadow: 0 10px 15px 0 rgb(0, 0, 0);
  }
+
+  #delete {
+    border-radius: 15px;
+     padding: 10px;
+     background-color: rgba(228, 218, 195, 0.479);
+     border: 10px, black,outset;
+     font-family: fantasy, bold;
+     font-size: 16px;
+     box-shadow: 0 10px 15px 0 rgb(0, 0, 0);
+  }
   
 
    .card {
