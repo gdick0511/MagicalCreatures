@@ -1,3 +1,4 @@
+
 document.getElementById('form').addEventListener('submit', handleSubmit)
 
 function renderCreatures(creature){
@@ -28,6 +29,11 @@ function renderCreatures(creature){
  card.querySelector('#donate').addEventListener('mouseout', () => {
     card.querySelector('#donate').textContent = 'Donate 100 Gold'
 })
+    // <button id= 'delete'> Delete </button> This button will need to go on line 18 in order for the delete function to work once commented back in 
+    // card.querySelector('#delete').addEventListener('click', () => {
+    //     // card.remove()
+    //     deleteCreature(creature.id)
+    // })
 }
  
 function handleSubmit(e){
@@ -45,13 +51,13 @@ function handleSubmit(e){
 }
 
 function getAllCreatures(){
- fetch('http://localhost:3000/creatureData')
+ fetch('https://magical-creatures-database.herokuapp.com/creatureData')
  .then(resp => resp.json())
  .then(creatureData => creatureData.forEach(creature => renderCreatures(creature)))
 }
 
 function updateDonations(creatureObj){
-    fetch(`http://localhost:3000/creatureData/${creatureObj.id}`, {
+    fetch(`https://magical-creatures-database.herokuapp.com/creatureData/${creatureObj.id}`, {
         method: "PATCH",
         headers: {
             'Content-Type': 'application/json'
@@ -63,7 +69,7 @@ function updateDonations(creatureObj){
 }
 
 function addCreature(creatureObj){
-    fetch('http://localhost:3000/creatureData',{
+    fetch('https://magical-creatures-database.herokuapp.com/creatureData',{
         method: "POST",
         headers: {
             'Content-Type':'application/json'
@@ -73,6 +79,15 @@ function addCreature(creatureObj){
     .then(res => res.json())
     .then(creature => console.log(creature))
 }
+
+// function deleteCreature(id){
+//     fetch(`https://magical-creatures-database.herokuapp.com/creatureData/${id}`, {
+//         method: "DELETE",
+//         headers: {
+//             'Content-Type': 'application/json'
+//         }
+//     })
+// }
 
 function initialize(){
  getAllCreatures()
